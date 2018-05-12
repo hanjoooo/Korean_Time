@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1079593470003",
+    "firebase_url": "https://korean-time.firebaseio.com",
+    "project_id": "korean-time",
+    "storage_bucket": "korean-time.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079593470003:android:852b7f8a23a1d007",
+        "android_client_info": {
+          "package_name": "com.example.khanj.koreantime"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079593470003-m457sp6u98i69959aig6k0ku68nagkie.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.khanj.koreantime",
+            "certificate_hash": "b01d5b91e09425fa0fb7ac3da4c2a67abb2e06d0"
+          }
+        },
+        {
+          "client_id": "1079593470003-a9iplq169eqe0up6raue5dcd7tdgnjad.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZChAq5KOfgKs9p06DlOslVr4bxY1xjis"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079593470003-a9iplq169eqe0up6raue5dcd7tdgnjad.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

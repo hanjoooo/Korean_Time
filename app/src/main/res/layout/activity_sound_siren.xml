@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SoundSirenActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:text="김한주 : "
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textAlignment="textEnd"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="도착"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="1등"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_marginLeft="40dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="7dp">
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:text="최민섭 : "
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textAlignment="textEnd"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="도착"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"
+            android:layout_gravity="center" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="2등"
+            android:textSize="18dp"
+            android:layout_marginLeft="40dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="7dp">
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:text="박현욱 : "
+            android:textSize="18dp"
+            android:gravity="center"
+            android:textAlignment="textEnd"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="3km"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="지각"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_marginLeft="40dp" />
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:text="싸이렌 끄기" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="7dp">
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:text="정준원 : "
+            android:textSize="18dp"
+            android:gravity="center"
+            android:textAlignment="textEnd"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="7km"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_gravity="center" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="지각"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:layout_marginLeft="40dp" />
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:text="싸이렌 끄기" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="7dp">
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="110dp"
+            android:layout_height="match_parent"
+            android:text="장동혁 : "
+            android:textAlignment="textEnd"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="22km"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"
+            android:layout_gravity="center" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="지각"
+            android:textSize="18dp"
+            android:layout_marginLeft="30dp" />
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:text="싸이렌 끄기" />
+    </LinearLayout>
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
