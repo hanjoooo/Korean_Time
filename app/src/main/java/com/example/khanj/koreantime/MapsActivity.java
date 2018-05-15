@@ -52,9 +52,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng zero = new LatLng(37.60062040, 126.8643880);
-        LatLng one = new LatLng(37.6005390, 126.8653321);
-        LatLng two = new LatLng(37.6004710, 126.8659008);
+        LatLng zero = new LatLng(37.60062040, 126.8643881);
+        LatLng one = new LatLng(37.6001733, 126.8659192);
+        LatLng two = new LatLng(37.6025194, 126.8659192);
         LatLng three = new LatLng(37.5927013, 126.8812966);
         LatLng four = new LatLng(37.6150731, 126.8328881);
         LatLng five = new LatLng(37.4211885, 126.7518640);
@@ -64,7 +64,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap.addMarker(new MarkerOptions().position(three).title("현욱").icon(BitmapDescriptorFactory.fromResource(R.drawable.three)));
         mMap.addMarker(new MarkerOptions().position(four).title("준원").icon(BitmapDescriptorFactory.fromResource(R.drawable.four)));
         mMap.addMarker(new MarkerOptions().position(five).title("동혁").icon(BitmapDescriptorFactory.fromResource(R.drawable.five)));
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(zero,13));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(zero,15));
 
     }
 }

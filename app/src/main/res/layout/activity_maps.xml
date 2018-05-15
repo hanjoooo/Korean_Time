@@ -82,7 +82,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="3km"
+                android:text="2km"
                 android:textSize="18dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"/>
@@ -109,7 +109,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="7km"
+                android:text="3km"
                 android:layout_marginLeft="10dp"
                 android:textSize="18dp"
                 android:layout_gravity="center" />
